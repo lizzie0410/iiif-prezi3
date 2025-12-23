@@ -1,0 +1,514 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8182/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "笃行猫谱-20张猫咪合集",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "默认序列",
+      "canvases": [
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "图片1：happy",
+          "width": 1280,
+          "height": 1707,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/happy.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1280,
+                "height": 1707
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/1"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "图片2：乌龙",
+          "width": 1702,
+          "height": 1276,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E4%B9%8C%E9%BE%99.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1702,
+                "height": 1276
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/2"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "图片3：冻梨",
+          "width": 640,
+          "height": 854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%86%BB%E6%A2%A8.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 640,
+                "height": 854
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/3"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "图片4：北城",
+          "width": 960,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%8C%97%E5%9F%8E.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 960,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/4"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "图片5：午饭",
+          "width": 1280,
+          "height": 1707,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%8D%88%E9%A5%AD.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1280,
+                "height": 1707
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/5"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "图片6：呆头",
+          "width": 1259,
+          "height": 1706,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%91%86%E5%A4%B4.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1259,
+                "height": 1706
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/6"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "图片7：土豆泥",
+          "width": 6000,
+          "height": 4000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%9C%9F%E8%B1%86%E6%B3%A5.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 6000,
+                "height": 4000
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/7"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "图片8：小霞",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%B0%8F%E9%9C%9E.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/8"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "图片9：张嘎",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E5%BC%A0%E5%98%8E.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/9"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "图片10：橘巴巴",
+          "width": 1439,
+          "height": 1080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E6%A9%98%E5%B7%B4%E5%B7%B4.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1439,
+                "height": 1080
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/10"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "图片11：没文化",
+          "width": 1702,
+          "height": 1276,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E6%B2%A1%E6%96%87%E5%8C%96.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1702,
+                "height": 1276
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/11"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "图片12：炒饭",
+          "width": 640,
+          "height": 854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E7%82%92%E9%A5%AD.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 640,
+                "height": 854
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/12"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "图片13：炸蛋",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E7%82%B8%E8%9B%8B.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/13"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/14",
+          "@type": "sc:Canvas",
+          "label": "图片14：皮丘",
+          "width": 1707,
+          "height": 1280,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E7%9A%AE%E4%B8%98.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 1707,
+                "height": 1280
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/14"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/15",
+          "@type": "sc:Canvas",
+          "label": "图片15：船长",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E8%88%B9%E9%95%BF.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/15"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/16",
+          "@type": "sc:Canvas",
+          "label": "图片16：茉莉",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E8%8C%89%E8%8E%89.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/16"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/17",
+          "@type": "sc:Canvas",
+          "label": "图片17：跳跳虎",
+          "width": 640,
+          "height": 960,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E8%B7%B3%E8%B7%B3%E8%99%8E.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 640,
+                "height": 960
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/17"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/18",
+          "@type": "sc:Canvas",
+          "label": "图片18：追追",
+          "width": 640,
+          "height": 854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E8%BF%BD%E8%BF%BD.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 640,
+                "height": 854
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/18"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/19",
+          "@type": "sc:Canvas",
+          "label": "图片19：青柑",
+          "width": 854,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E9%9D%92%E6%9F%91.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 854,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/19"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8182/manifest.json/canvas/20",
+          "@type": "sc:Canvas",
+          "label": "图片20：香瓜",
+          "width": 960,
+          "height": 640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/%E9%A6%99%E7%93%9C.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 960,
+                "height": 640
+              },
+              "on": "http://localhost:8182/manifest.json/canvas/20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
